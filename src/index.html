@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Even vs Odd</title>
+    <style>
+      h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: underline;
+      }
+      label {
+        font-weight: normal;
+        font-size: large;
+      }
+      button {
+        padding: 1em 1.2em;
+        font-size: 12px;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 51, 51);
+        border: none;
+        border-radius: 5px;
+      }
+      select {
+        font-weight: bold;
+        border-radius: 2px;
+        font-size: 14px;
+        height: 30px;
+        width: 60px;
+      }
+      main {
+        background-color: rgb(169, 165, 165);
+        border: solid;
+        text-align: center;
+        margin: 5%;
+        padding: 5%;
+        width: 20%;
+        margin-left: 35%;
+      }
+      input {
+        font-weight: bold;
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(35, 35, 35)">
+    <h1>Even vs Odd</h1>
+    <main>
+      <div>
+        <label for="num">Insert num:</label>
+        <input id="num" type="number" />
+        <button id="add">Add</button>
+      </div>
+      <div>
+        <label for="numbersToSum">Numbers Added: </label>
+        <textarea id="numbersToSum" style="font-weight:bold;"></textarea>
+        <button id="getResult">Get the result</button>
+        <input id="result" type="number" />
+      </div>
+      <div>
+        <label for="collectionNumber">Collectionn numbers:</label>
+        <select name="collectionNumber" id="collectionNumber">
+        </select>
+        <button id="delete">Delete</button>
+      </div>
+    </main>
+  </body>
+</html>
